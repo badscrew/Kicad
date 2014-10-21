@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LORLIN_1X12
+D Switch inverseur
+K switch
+$ENDCMP
+#
+$CMP LORLIN_2X6
+D Switch inverseur
+K switch
+$ENDCMP
+#
+$CMP MAX837
+D Micropower Voltage Monitor
+K Voltage Monitor
+$ENDCMP
+#
+$CMP SWITCH_INV
+D Switch inverseur
+K switch
+$ENDCMP
+#
+$CMP SWITCH_INV_SMALL
+D Switch inverseur
+K switch
+$ENDCMP
+#
+$CMP TLC2262
+D Dual Op amp (low power)
+K ampliop
+$ENDCMP
+#
+$CMP TLE2426
+D Rail Splitter
+K RAIL SPLITTER
+F C:/Users/adolganov/Google Drive/electronics/TLE2426.pdf
+$ENDCMP
+#
+#End Doc Library

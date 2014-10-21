@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp codebase="" href="help.jnlp">
+    <information>
+        <title>JavaHelp System Library</title>
+        <vendor>Sun Microsystems, Inc.</vendor>
+    </information>
+    <resources>
+        <jar href="jh.jar" download="lazy"/>
+    </resources>
+    <component-desc/>
+</jnlp> 
