@@ -30,6 +30,11 @@ D Dual Op amp (low power)
 K ampliop
 $ENDCMP
 #
+$CMP TLC2272
+D Dual Op amp (low power)
+K ampliop
+$ENDCMP
+#
 $CMP TLE2426
 D Rail Splitter
 K RAIL SPLITTER
