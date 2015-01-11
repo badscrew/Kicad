@@ -1,3 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TLE2426-SOIC
+D Rail Splitter
+$ENDCMP
+#
+$CMP TLE2426-TO92
+D Rail Splitter
+$ENDCMP
+#
 #End Doc Library
