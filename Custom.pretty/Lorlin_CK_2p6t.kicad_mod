@@ -1,4 +1,4 @@
-(module Lorlin_CK_2p6t (layer F.Cu) (tedit 5446956B)
+(module Lorlin_CK_2p6t (layer F.Cu) (tedit 5520F605)
   (descr "Lorlin CK Rotary 2p6t ")
   (tags 2p6t)
   (fp_text reference SW1 (at -0.762 -2.032) (layer F.SilkS)
@@ -7,6 +7,10 @@
   (fp_text value LORLIN_2X6 (at 2.54 2.54) (layer F.SilkS) hide
     (effects (font (thickness 0.2)))
   )
+  (fp_circle (center 6.604 -11.43) (end 7.493 -11.049) (layer F.SilkS) (width 0.15))
+  (fp_circle (center -6.604 -11.43) (end -5.715 -11.049) (layer F.SilkS) (width 0.15))
+  (fp_circle (center -6.604 11.43) (end -5.715 11.811) (layer F.SilkS) (width 0.15))
+  (fp_circle (center 6.604 11.43) (end 7.493 11.811) (layer F.SilkS) (width 0.15))
   (fp_circle (center 0 0) (end 5.08 3.85) (layer F.SilkS) (width 0.15))
   (fp_circle (center 0 0) (end 11.1 7.62) (layer F.SilkS) (width 0.15))
   (pad 12 thru_hole circle (at 2.872891 10.721776) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
