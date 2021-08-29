@@ -1,10 +1,10 @@
-(module SIL-3-LARGE_PADS (layer F.Cu) (tedit 544799C0)
+(module SIL-3-LARGE_PADS (layer F.Cu) (tedit 57FA4800)
   (descr "Connecteur 3 pins")
   (tags "CONN DEV")
-  (fp_text reference P1 (at 0 -2.54) (layer F.SilkS)
+  (fp_text reference RV3 (at 0 -2.54) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
-  (fp_text value CONN_3 (at 0 -2.54) (layer F.SilkS) hide
+  (fp_text value A25K (at 0 -2.54) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
   (fp_line (start -3.81 1.27) (end -3.81 -1.27) (layer F.SilkS) (width 0.3048))

@@ -1,8 +1,8 @@
 (module C1V7-LARGE_PADS (layer F.Cu) (tedit 545FB6F5)
-  (fp_text reference C12 (at 0 -1.905) (layer F.SilkS)
+  (fp_text reference C2 (at 0 -1.905) (layer F.SilkS)
     (effects (font (size 1.143 0.889) (thickness 0.2032)))
   )
-  (fp_text value 22uf (at 0 1.905) (layer F.SilkS)
+  (fp_text value 47u (at 0 1.905) (layer F.SilkS)
     (effects (font (size 1.143 0.889) (thickness 0.2032)))
   )
   (fp_text user + (at -1.905 -1.905) (layer F.SilkS)
@@ -11,7 +11,7 @@
   (fp_circle (center 0 0) (end 3.175 0) (layer F.SilkS) (width 0.127))
   (pad 1 thru_hole rect (at -1.27 0) (size 1.778 1.778) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 1.27 0) (size 1.778 1.778) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (model discret/c_vert_c1v7.wrl
+  (model Discret.3dshapes/C1V7.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

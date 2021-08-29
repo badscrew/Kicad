@@ -1,10 +1,10 @@
 (module C1V5-LARGE_PADS (layer F.Cu) (tedit 545FB66B)
   (descr "Condensateur e = 1 pas")
   (tags C)
-  (fp_text reference C9 (at 0 -1.778) (layer F.SilkS)
+  (fp_text reference C1 (at 0 -1.778) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.127)))
   )
-  (fp_text value 47uF (at 0 1.27) (layer F.SilkS)
+  (fp_text value 10u (at 0 1.27) (layer F.SilkS)
     (effects (font (size 0.762 0.635) (thickness 0.127)))
   )
   (fp_text user + (at -1.27 -1.905) (layer F.SilkS)
@@ -13,7 +13,7 @@
   (fp_circle (center 0 0) (end 0.127 -2.54) (layer F.SilkS) (width 0.127))
   (pad 1 thru_hole rect (at -1.27 0) (size 1.778 1.778) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 1.27 0) (size 1.778 1.778) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (model discret/c_vert_c1v5.wrl
+  (model Discret.3dshapes/C1V5.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

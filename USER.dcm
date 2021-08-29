@@ -25,6 +25,11 @@ D Switch inverseur
 K switch
 $ENDCMP
 #
+$CMP SWITCH_SMALL
+D Switch inverseur
+K switch
+$ENDCMP
+#
 $CMP TLC2262
 D Dual Op amp (low power)
 K ampliop
