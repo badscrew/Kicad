@@ -1,0 +1,28 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Alternate Kicad Library",
+    "description": "Symbol and Footprint library focused on improving schematic and PCB readability and aesthetics, mainly intended for hobbyist use",
+    "description_full": "Current version: 3.0\n\nYou need to manually update the library tables in the Library Manager. Refer to the links below for documentation and installation instructions.\n\nAlternate KiCad Library contains over 30000 symbols and 9200 footprints.\n New symbols include opamps, voltage comparators, instrumentation amplifiers, difference amplifiers, differential amplifiers and more.\nNew footprints include Potentiometers, SIP packages and new variants for existing libraries.\n\n",
+    "identifier": "com.github.dawidcislo.alternate-kicad-library",
+    "type": "library",
+    "author": {
+        "name": "Dawid Cisło",
+        "contact": {
+            "email": "dawid_cislo@o2.pl"
+        }
+    },
+    "license": "CC-BY-SA",
+    "resources": {
+        "Github": "https://github.com/DawidCislo/Alternate-KiCad-Library",
+	"Website": "https://www.alternatekicadlibrary.com/"
+    },
+    "tags": [
+        "footprints", 
+        "symbols"
+    ],
+    "versions": [{
+        "version": "3.0",
+        "status": "stable",
+        "kicad_version": "6.0"
+    }]
+}
